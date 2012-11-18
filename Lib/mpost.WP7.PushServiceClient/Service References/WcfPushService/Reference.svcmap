@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9d2a14b6-8e00-46ea-9903-40fe456b76b9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://push.mpdevelopment.nl/PushService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PushService3.xsd" MetadataType="Schema" ID="1a179fce-ea8e-4890-b95e-7c8e201d6e51" SourceId="1" SourceUrl="http://push.mpdevelopment.nl/PushService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PushService1.wsdl" MetadataType="Wsdl" ID="642694c9-4ee6-4cad-af2c-44f574663486" SourceId="1" SourceUrl="http://push.mpdevelopment.nl/PushService.svc?wsdl" />
+    <MetadataFile FileName="PushService1.disco" MetadataType="Disco" ID="30daef92-3d5c-4897-852e-948427b1100e" SourceId="1" SourceUrl="http://push.mpdevelopment.nl/PushService.svc?disco" />
+    <MetadataFile FileName="PushService31.xsd" MetadataType="Schema" ID="2f7d53b8-c777-45de-b7e3-e8d691f15dd2" SourceId="1" SourceUrl="http://push.mpdevelopment.nl/PushService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PushService32.xsd" MetadataType="Schema" ID="6c3c1e99-ab80-42f2-8be0-5e742baf7933" SourceId="1" SourceUrl="http://push.mpdevelopment.nl/PushService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PushService33.xsd" MetadataType="Schema" ID="664694fe-acaf-46af-8fc8-341e78836577" SourceId="1" SourceUrl="http://push.mpdevelopment.nl/PushService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

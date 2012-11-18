@@ -1,0 +1,19 @@
+Group Chat Messenger
+TRIAL YES
+Social
+1.99
+
+Keywords:
+group, chat, messenger, push, notifications
+
+
+Group Chat Messenger allows you to create a channel and talk to other persons in this channel.
+It's meant for groups who want to have a line of communication with eachother. When the application is closed, messages are still received using PUSH functionality.
+
+You can create your own displayname and group. No registration needed.
+Groups are always private, but anybody can join any group if they know the name of the group.
+
+Trial mode only allows you to enter the Trial group. You can test the functionality there.
+Full version allows you to create your own groups.
+
+

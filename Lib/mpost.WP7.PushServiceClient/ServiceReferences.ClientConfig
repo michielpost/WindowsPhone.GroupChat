@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IPush" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://push.mpdevelopment.nl/PushService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IPush"
+                contract="WcfPushService.IPush" name="BasicHttpBinding_IPush" />
+        </client>
+    </system.serviceModel>
+</configuration>

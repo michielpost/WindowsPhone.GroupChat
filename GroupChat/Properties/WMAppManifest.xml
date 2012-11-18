@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{7182759f-8c76-455c-b5a4-c9393d0ad94b}" Title="Group Chat" RuntimeType="Silverlight" Version="1.0.1.0" Genre="apps.normal" Author="M. Post" Description="Group Chat Messenger" Publisher="M. Post">
+    <IconPath IsRelative="true" IsResource="false">groupchat_62.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="GroupChatToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">groupchat_173.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>Group Chat</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
